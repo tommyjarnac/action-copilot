@@ -1,0 +1,7 @@
+---
+llm: true #set false to generate a static list of tasks, without calling the LLM
+todoist:
+  api-token:  "<YOUR TODOIST API KEY"
+  project-id: null # or "<YOUR TODOIST PROJECT ID>"" if you want tasks to skip the inbox and go in a todoist project
+open-ai:
+  api-key: "<YOUR OPEN AI API KEY>"

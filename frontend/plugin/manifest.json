@@ -1,0 +1,10 @@
+{
+	"id": "action-copilot",
+	"name": "Action Copilot",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Action Copilot",
+	"author": "Tommy Jarnac",
+	"authorUrl": "https://github.com/tommyjarnac/",
+	"isDesktopOnly": false
+}

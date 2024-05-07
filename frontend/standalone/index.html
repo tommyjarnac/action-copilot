@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Suggestions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Actionify</h1>
+    <h2>Automatically extract actionable tasks from a text and create them in Todoist</h2>
+    <ol id="value">
+        <li>Write a text</li>
+        <li>Let AI suggest actionable tasks for your todo-list</li>
+        <li>Create them in Todoist!</li>
+    </ol>
+    <div class="container">
+        <div class="column">
+            <h2>Write text</h2>
+            <textarea id="journalTextarea" placeholder="Write your text here"></textarea>
+            <button id="generateButton">Suggest actionable tasks</button>
+            <button id="testButton">Fill input with a sample journal</button>
+        </div>
+        <div class="column">
+            <h2>Task Suggestions</h2>
+            <div id="suggestionIntro">No suggestions yet</div>
+            <table id="taskTable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="taskList"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <div id="sampleJournal">May 5, 2024
+
+Today marks the beginning of a new chapter, one filled with aspirations and endeavors waiting to be pursued. As I sit down to pen these words, I am filled with a sense of anticipation and determination, eager to embark on this journey of self-improvement and growth.
+
+First and foremost, I've resolved to prioritize my physical health. It's become increasingly evident that regular exercise and a balanced diet are essential components of a fulfilling life. Therefore, I commit to incorporating daily workouts into my routine, whether it's a brisk morning run or a rejuvenating yoga session in the evening. Additionally, I aim to cultivate healthier eating habits by incorporating more fruits, vegetables, and whole grains into my meals, while also minimizing my intake of processed foods and sugary snacks.
+
+On the professional front, I've set ambitious goals for career advancement. As a lifelong learner, I recognize the importance of continuously honing my skills and expanding my knowledge base. To that end, I've enrolled in several online courses and workshops relevant to my field, with the aim of acquiring new expertise and staying abreast of industry trends. Moreover, I plan to actively seek out opportunities for networking and professional development, whether it's attending conferences, joining professional associations, or seeking mentorship from seasoned professionals in my field.
+
+In addition to focusing on my physical health and professional growth, I'm also committed to nurturing my mental well-being. In today's fast-paced world, it's all too easy to neglect self-care amidst the demands of everyday life. Therefore, I've pledged to carve out time each day for activities that bring me joy and relaxation, whether it's reading a good book, practicing mindfulness meditation, or simply spending quality time with loved ones.
+
+As I reflect on the goals I've set for myself, I am filled with a sense of optimism and determination. While the road ahead may be challenging at times, I am confident that with perseverance and dedication, I will be able to achieve my aspirations and lead a life that is both fulfilling and meaningful.
+</div>
+</body>
+</html>
